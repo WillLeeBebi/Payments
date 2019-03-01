@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using Payments.Attributes;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using Util.Validations;
 
@@ -6,6 +7,7 @@ namespace Payments.Alipay.Abstractions {
     /// <summary>
     /// 支付宝返回服务
     /// </summary>
+    [PayService("支付宝返回服务")]
     public interface IAlipayReturnService {
         /// <summary>
         /// 商户订单号

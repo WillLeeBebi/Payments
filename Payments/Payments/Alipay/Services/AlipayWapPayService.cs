@@ -70,11 +70,6 @@ namespace Payments.Alipay.Services {
             return "alipay.trade.wap.pay";
         }
 
-        /// <summary>
-        /// 获取支付方式
-        /// </summary>
-        protected override PayWay GetPayWay() {
-            return PayWay.AlipayWapPay;
-        }
+      
     }
 }

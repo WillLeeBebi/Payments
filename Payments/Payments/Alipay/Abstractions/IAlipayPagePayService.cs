@@ -1,10 +1,12 @@
 ﻿using System.Threading.Tasks;
 using Payments.Alipay.Parameters.Requests;
+using Payments.Attributes;
 
 namespace Payments.Alipay.Abstractions {
     /// <summary>
     /// 支付宝电脑网站支付服务
     /// </summary>
+    [PayService("支付宝电脑网站支付服务")]
     public interface IAlipayPagePayService {
         /// <summary>
         /// 支付,返回表单html

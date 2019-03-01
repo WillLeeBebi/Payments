@@ -12,7 +12,8 @@ namespace Payments.Wechatpay.Services {
     /// <summary>
     /// 微信App支付服务
     /// </summary>
-    public class WechatpayAppPayService : WechatpayServiceBase, IWechatpayAppPayService {
+    public class WechatpayAppPayService : WechatpayServiceBase, IWechatpayAppPayService 
+    {
         /// <summary>
         /// 初始化微信App支付服务
         /// </summary>
@@ -28,12 +29,7 @@ namespace Payments.Wechatpay.Services {
             return await PayAsync( request.ToParam() );
         }
 
-        /// <summary>
-        /// 获取支付方式
-        /// </summary>
-        protected override PayWay GetPayWay() {
-            return PayWay.WechatpayAppPay;
-        }
+   
 
         /// <summary>
         /// 获取交易类型

@@ -43,12 +43,7 @@ namespace Payments.Alipay.Services
             return "alipay.trade.pay";
         }
 
-        /// <summary>
-        /// 获取支付方式
-        /// </summary>
-        protected override PayWay GetPayWay() {
-            return PayWay.AlipayBarcodePay;
-        }
+    
 
         /// <summary>
         /// 验证参数

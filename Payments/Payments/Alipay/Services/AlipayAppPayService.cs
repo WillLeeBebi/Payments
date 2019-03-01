@@ -42,12 +42,6 @@ namespace Payments.Alipay.Services {
         protected override string GetMethod() {
             return "alipay.trade.app.pay";
         }
-
-        /// <summary>
-        /// 获取支付方式
-        /// </summary>
-        protected override PayWay GetPayWay() {
-            return PayWay.AlipayAppPay;
-        }
+ 
     }
 }

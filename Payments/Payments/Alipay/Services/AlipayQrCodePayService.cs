@@ -35,12 +35,7 @@ namespace Payments.Alipay.Services {
             return "alipay.trade.precreate";
         }
 
-        /// <summary>
-        /// 获取支付方式
-        /// </summary>
-        protected override PayWay GetPayWay() {
-            return PayWay.AlipayQrCodePay;
-        }
+      
 
         /// <summary>
         /// 创建结果

@@ -126,7 +126,7 @@ namespace Payments.Wechatpay.Services.Base {
                 return;
             log.Class( GetType().FullName )
                 .Caption( "微信支付" )
-                .Content( $"支付方式 : {GetPayWay().Description()}" )
+                .Content( $"支付方式 : {GetType()}" )
                 .Content( $"支付网关 : {config.GetOrderUrl()}" )
                 .Content( "请求参数:" )
                 .Content( builder.ToXml() )
@@ -149,12 +149,7 @@ namespace Payments.Wechatpay.Services.Base {
             catch {
                 return Log.Null;
             }
-        }
-
-        /// <summary>
-        /// 获取支付方式
-        /// </summary>
-        protected abstract PayWay GetPayWay();
+        }     
 
         /// <summary>
         /// 创建支付结果

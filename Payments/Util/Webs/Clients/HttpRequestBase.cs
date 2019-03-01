@@ -336,18 +336,12 @@ namespace Util.Webs.Clients
         /// </summary>
         protected async Task<HttpResponseMessage> SendAsync()
         {
-            try
-            {
-                var client = CreateHttpClient();
-                InitHttpClient(client);
-                var httpRequest = CreateRequestMessage();
-                var HttpResponse = await client.SendAsync(httpRequest);
-                return HttpResponse;
-            }
-            catch (Exception ex)
-            {
-            }
-            return null;
+            var client = CreateHttpClient();
+            InitHttpClient(client);
+            var httpRequest = CreateRequestMessage();
+            var HttpResponse = await client.SendAsync(httpRequest);
+            return HttpResponse;
+
         }
 
         /// <summary>
