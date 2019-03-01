@@ -1,0 +1,16 @@
+C:\Users\LTL\source\repos\Payments\Util.Logs\obj\Debug\netcoreapp2.2\Util.Logs.csprojAssemblyReference.cache
+C:\Users\LTL\source\repos\Payments\Util.Logs\obj\Debug\netcoreapp2.2\Util.Logs.Properties.LogResource.resources
+C:\Users\LTL\source\repos\Payments\Util.Logs\obj\Debug\netcoreapp2.2\Util.Logs.csproj.GenerateResource.cache
+C:\Users\LTL\source\repos\Payments\Util.Logs\obj\Debug\netcoreapp2.2\Util.Logs.csproj.CoreCompileInputs.cache
+C:\Users\LTL\source\repos\Payments\Util.Logs\obj\Debug\netcoreapp2.2\Util.Logs.AssemblyInfoInputs.cache
+C:\Users\LTL\source\repos\Payments\Util.Logs\obj\Debug\netcoreapp2.2\Util.Logs.AssemblyInfo.cs
+C:\Users\LTL\source\repos\Payments\Util.Logs\bin\Debug\netcoreapp2.2\Util.Logs.deps.json
+C:\Users\LTL\source\repos\Payments\Util.Logs\bin\Debug\netcoreapp2.2\Util.Logs.dll
+C:\Users\LTL\source\repos\Payments\Util.Logs\bin\Debug\netcoreapp2.2\Util.dll
+C:\Users\LTL\source\repos\Payments\Util.Logs\bin\Debug\netcoreapp2.2\Util.pdb
+C:\Users\LTL\source\repos\Payments\Util.Logs\obj\Debug\netcoreapp2.2\Util.Logs.csproj.CopyComplete
+C:\Users\LTL\source\repos\Payments\Util.Logs\bin\Debug\netcoreapp2.2\Util.Logs.pdb
+C:\Users\LTL\source\repos\Payments\Util.Logs\bin\Debug\netcoreapp2.2\Util.Security.dll
+C:\Users\LTL\source\repos\Payments\Util.Logs\bin\Debug\netcoreapp2.2\Util.Security.pdb
+C:\Users\LTL\source\repos\Payments\Util.Logs\obj\Debug\netcoreapp2.2\Util.Logs.dll
+C:\Users\LTL\source\repos\Payments\Util.Logs\obj\Debug\netcoreapp2.2\Util.Logs.pdb

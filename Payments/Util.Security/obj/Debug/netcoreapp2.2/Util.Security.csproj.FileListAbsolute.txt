@@ -1,0 +1,14 @@
+C:\Users\LTL\source\repos\Payments\Util.Security\bin\Debug\netcoreapp2.2\Util.Security.deps.json
+C:\Users\LTL\source\repos\Payments\Util.Security\bin\Debug\netcoreapp2.2\Util.Security.dll
+C:\Users\LTL\source\repos\Payments\Util.Security\bin\Debug\netcoreapp2.2\Util.Security.pdb
+C:\Users\LTL\source\repos\Payments\Util.Security\bin\Debug\netcoreapp2.2\Util.dll
+C:\Users\LTL\source\repos\Payments\Util.Security\bin\Debug\netcoreapp2.2\Util.pdb
+C:\Users\LTL\source\repos\Payments\Util.Security\obj\Debug\netcoreapp2.2\Util.Security.csprojAssemblyReference.cache
+C:\Users\LTL\source\repos\Payments\Util.Security\obj\Debug\netcoreapp2.2\Util.Security.Properties.SecurityResource.resources
+C:\Users\LTL\source\repos\Payments\Util.Security\obj\Debug\netcoreapp2.2\Util.Security.csproj.GenerateResource.cache
+C:\Users\LTL\source\repos\Payments\Util.Security\obj\Debug\netcoreapp2.2\Util.Security.csproj.CoreCompileInputs.cache
+C:\Users\LTL\source\repos\Payments\Util.Security\obj\Debug\netcoreapp2.2\Util.Security.AssemblyInfoInputs.cache
+C:\Users\LTL\source\repos\Payments\Util.Security\obj\Debug\netcoreapp2.2\Util.Security.AssemblyInfo.cs
+C:\Users\LTL\source\repos\Payments\Util.Security\obj\Debug\netcoreapp2.2\Util.Security.csproj.CopyComplete
+C:\Users\LTL\source\repos\Payments\Util.Security\obj\Debug\netcoreapp2.2\Util.Security.dll
+C:\Users\LTL\source\repos\Payments\Util.Security\obj\Debug\netcoreapp2.2\Util.Security.pdb

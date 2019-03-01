@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Payments\Payments.csproj" />
+    <ProjectReference Include="..\Util.Caches\Util.Caches.csproj" />
+    <ProjectReference Include="..\Util.Events\Util.Events.csproj" />
+    <ProjectReference Include="..\Util.Logs\Util.Logs.csproj" />
+    <ProjectReference Include="..\Util.Security\Util.Security.csproj" />
+    <ProjectReference Include="..\Util\Util.csproj" />
+  </ItemGroup>
+
+</Project>

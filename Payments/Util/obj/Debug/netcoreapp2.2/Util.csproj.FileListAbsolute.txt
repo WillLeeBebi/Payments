@@ -1,0 +1,12 @@
+C:\Users\LTL\source\repos\Payments\Util\bin\Debug\netcoreapp2.2\Util.deps.json
+C:\Users\LTL\source\repos\Payments\Util\bin\Debug\netcoreapp2.2\Util.dll
+C:\Users\LTL\source\repos\Payments\Util\bin\Debug\netcoreapp2.2\Util.pdb
+C:\Users\LTL\source\repos\Payments\Util\obj\Debug\netcoreapp2.2\Util.Properties.LibraryResource.resources
+C:\Users\LTL\source\repos\Payments\Util\obj\Debug\netcoreapp2.2\Util.Properties.R.resources
+C:\Users\LTL\source\repos\Payments\Util\obj\Debug\netcoreapp2.2\Util.csproj.GenerateResource.cache
+C:\Users\LTL\source\repos\Payments\Util\obj\Debug\netcoreapp2.2\Util.csproj.CoreCompileInputs.cache
+C:\Users\LTL\source\repos\Payments\Util\obj\Debug\netcoreapp2.2\Util.AssemblyInfoInputs.cache
+C:\Users\LTL\source\repos\Payments\Util\obj\Debug\netcoreapp2.2\Util.AssemblyInfo.cs
+C:\Users\LTL\source\repos\Payments\Util\obj\Debug\netcoreapp2.2\Util.dll
+C:\Users\LTL\source\repos\Payments\Util\obj\Debug\netcoreapp2.2\Util.pdb
+C:\Users\LTL\source\repos\Payments\Util\obj\Debug\netcoreapp2.2\Util.csprojAssemblyReference.cache
