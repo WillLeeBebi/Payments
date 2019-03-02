@@ -8962,11 +8962,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LTL\\source\\repos\\Payments\\Payments.Test\\Payments.Test.csproj",
+      "projectUniqueName": "D:\\aaaaa\\Payments\\Payments\\Payments.Test\\Payments.Test.csproj",
       "projectName": "Payments.Test",
-      "projectPath": "C:\\Users\\LTL\\source\\repos\\Payments\\Payments.Test\\Payments.Test.csproj",
+      "projectPath": "D:\\aaaaa\\Payments\\Payments\\Payments.Test\\Payments.Test.csproj",
       "packagesPath": "C:\\Users\\LTL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LTL\\source\\repos\\Payments\\Payments.Test\\obj\\",
+      "outputPath": "D:\\aaaaa\\Payments\\Payments\\Payments.Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
@@ -8986,23 +8986,23 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\LTL\\source\\repos\\Payments\\Payments\\Payments.csproj": {
-              "projectPath": "C:\\Users\\LTL\\source\\repos\\Payments\\Payments\\Payments.csproj"
+            "D:\\aaaaa\\Payments\\Payments\\Payments\\Payments.csproj": {
+              "projectPath": "D:\\aaaaa\\Payments\\Payments\\Payments\\Payments.csproj"
             },
-            "C:\\Users\\LTL\\source\\repos\\Payments\\Util.Caches\\Util.Caches.csproj": {
-              "projectPath": "C:\\Users\\LTL\\source\\repos\\Payments\\Util.Caches\\Util.Caches.csproj"
+            "D:\\aaaaa\\Payments\\Payments\\Util.Caches\\Util.Caches.csproj": {
+              "projectPath": "D:\\aaaaa\\Payments\\Payments\\Util.Caches\\Util.Caches.csproj"
             },
-            "C:\\Users\\LTL\\source\\repos\\Payments\\Util.Events\\Util.Events.csproj": {
-              "projectPath": "C:\\Users\\LTL\\source\\repos\\Payments\\Util.Events\\Util.Events.csproj"
+            "D:\\aaaaa\\Payments\\Payments\\Util.Events\\Util.Events.csproj": {
+              "projectPath": "D:\\aaaaa\\Payments\\Payments\\Util.Events\\Util.Events.csproj"
             },
-            "C:\\Users\\LTL\\source\\repos\\Payments\\Util.Logs\\Util.Logs.csproj": {
-              "projectPath": "C:\\Users\\LTL\\source\\repos\\Payments\\Util.Logs\\Util.Logs.csproj"
+            "D:\\aaaaa\\Payments\\Payments\\Util.Logs\\Util.Logs.csproj": {
+              "projectPath": "D:\\aaaaa\\Payments\\Payments\\Util.Logs\\Util.Logs.csproj"
             },
-            "C:\\Users\\LTL\\source\\repos\\Payments\\Util.Security\\Util.Security.csproj": {
-              "projectPath": "C:\\Users\\LTL\\source\\repos\\Payments\\Util.Security\\Util.Security.csproj"
+            "D:\\aaaaa\\Payments\\Payments\\Util.Security\\Util.Security.csproj": {
+              "projectPath": "D:\\aaaaa\\Payments\\Payments\\Util.Security\\Util.Security.csproj"
             },
-            "C:\\Users\\LTL\\source\\repos\\Payments\\Util\\Util.csproj": {
-              "projectPath": "C:\\Users\\LTL\\source\\repos\\Payments\\Util\\Util.csproj"
+            "D:\\aaaaa\\Payments\\Payments\\Util\\Util.csproj": {
+              "projectPath": "D:\\aaaaa\\Payments\\Payments\\Util\\Util.csproj"
             }
           }
         }

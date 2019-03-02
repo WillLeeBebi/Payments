@@ -10,3 +10,15 @@ C:\Users\LTL\source\repos\Payments\Util.Caches\obj\Debug\netcoreapp2.2\Util.Cach
 C:\Users\LTL\source\repos\Payments\Util.Caches\obj\Debug\netcoreapp2.2\Util.Caches.csproj.CopyComplete
 C:\Users\LTL\source\repos\Payments\Util.Caches\obj\Debug\netcoreapp2.2\Util.Caches.dll
 C:\Users\LTL\source\repos\Payments\Util.Caches\obj\Debug\netcoreapp2.2\Util.Caches.pdb
+D:\aaaaa\Payments\Payments\Util.Caches\bin\Debug\netcoreapp2.2\Util.Caches.deps.json
+D:\aaaaa\Payments\Payments\Util.Caches\bin\Debug\netcoreapp2.2\Util.Caches.dll
+D:\aaaaa\Payments\Payments\Util.Caches\bin\Debug\netcoreapp2.2\Util.Caches.pdb
+D:\aaaaa\Payments\Payments\Util.Caches\bin\Debug\netcoreapp2.2\Util.dll
+D:\aaaaa\Payments\Payments\Util.Caches\bin\Debug\netcoreapp2.2\Util.pdb
+D:\aaaaa\Payments\Payments\Util.Caches\obj\Debug\netcoreapp2.2\Util.Caches.csprojAssemblyReference.cache
+D:\aaaaa\Payments\Payments\Util.Caches\obj\Debug\netcoreapp2.2\Util.Caches.csproj.CoreCompileInputs.cache
+D:\aaaaa\Payments\Payments\Util.Caches\obj\Debug\netcoreapp2.2\Util.Caches.AssemblyInfoInputs.cache
+D:\aaaaa\Payments\Payments\Util.Caches\obj\Debug\netcoreapp2.2\Util.Caches.AssemblyInfo.cs
+D:\aaaaa\Payments\Payments\Util.Caches\obj\Debug\netcoreapp2.2\Util.Caches.csproj.CopyComplete
+D:\aaaaa\Payments\Payments\Util.Caches\obj\Debug\netcoreapp2.2\Util.Caches.dll
+D:\aaaaa\Payments\Payments\Util.Caches\obj\Debug\netcoreapp2.2\Util.Caches.pdb

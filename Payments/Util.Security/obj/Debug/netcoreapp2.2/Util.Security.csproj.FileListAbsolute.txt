@@ -12,3 +12,17 @@ C:\Users\LTL\source\repos\Payments\Util.Security\obj\Debug\netcoreapp2.2\Util.Se
 C:\Users\LTL\source\repos\Payments\Util.Security\obj\Debug\netcoreapp2.2\Util.Security.csproj.CopyComplete
 C:\Users\LTL\source\repos\Payments\Util.Security\obj\Debug\netcoreapp2.2\Util.Security.dll
 C:\Users\LTL\source\repos\Payments\Util.Security\obj\Debug\netcoreapp2.2\Util.Security.pdb
+D:\aaaaa\Payments\Payments\Util.Security\bin\Debug\netcoreapp2.2\Util.Security.deps.json
+D:\aaaaa\Payments\Payments\Util.Security\bin\Debug\netcoreapp2.2\Util.Security.dll
+D:\aaaaa\Payments\Payments\Util.Security\bin\Debug\netcoreapp2.2\Util.Security.pdb
+D:\aaaaa\Payments\Payments\Util.Security\bin\Debug\netcoreapp2.2\Util.dll
+D:\aaaaa\Payments\Payments\Util.Security\bin\Debug\netcoreapp2.2\Util.pdb
+D:\aaaaa\Payments\Payments\Util.Security\obj\Debug\netcoreapp2.2\Util.Security.csprojAssemblyReference.cache
+D:\aaaaa\Payments\Payments\Util.Security\obj\Debug\netcoreapp2.2\Util.Security.Properties.SecurityResource.resources
+D:\aaaaa\Payments\Payments\Util.Security\obj\Debug\netcoreapp2.2\Util.Security.csproj.GenerateResource.cache
+D:\aaaaa\Payments\Payments\Util.Security\obj\Debug\netcoreapp2.2\Util.Security.csproj.CoreCompileInputs.cache
+D:\aaaaa\Payments\Payments\Util.Security\obj\Debug\netcoreapp2.2\Util.Security.AssemblyInfoInputs.cache
+D:\aaaaa\Payments\Payments\Util.Security\obj\Debug\netcoreapp2.2\Util.Security.AssemblyInfo.cs
+D:\aaaaa\Payments\Payments\Util.Security\obj\Debug\netcoreapp2.2\Util.Security.csproj.CopyComplete
+D:\aaaaa\Payments\Payments\Util.Security\obj\Debug\netcoreapp2.2\Util.Security.dll
+D:\aaaaa\Payments\Payments\Util.Security\obj\Debug\netcoreapp2.2\Util.Security.pdb

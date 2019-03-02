@@ -10,3 +10,15 @@ C:\Users\LTL\source\repos\Payments\Util.Events\obj\Debug\netcoreapp2.2\Util.Even
 C:\Users\LTL\source\repos\Payments\Util.Events\obj\Debug\netcoreapp2.2\Util.Events.csproj.CopyComplete
 C:\Users\LTL\source\repos\Payments\Util.Events\obj\Debug\netcoreapp2.2\Util.Events.dll
 C:\Users\LTL\source\repos\Payments\Util.Events\obj\Debug\netcoreapp2.2\Util.Events.pdb
+D:\aaaaa\Payments\Payments\Util.Events\bin\Debug\netcoreapp2.2\Util.Events.deps.json
+D:\aaaaa\Payments\Payments\Util.Events\bin\Debug\netcoreapp2.2\Util.Events.dll
+D:\aaaaa\Payments\Payments\Util.Events\bin\Debug\netcoreapp2.2\Util.Events.pdb
+D:\aaaaa\Payments\Payments\Util.Events\bin\Debug\netcoreapp2.2\Util.dll
+D:\aaaaa\Payments\Payments\Util.Events\bin\Debug\netcoreapp2.2\Util.pdb
+D:\aaaaa\Payments\Payments\Util.Events\obj\Debug\netcoreapp2.2\Util.Events.csprojAssemblyReference.cache
+D:\aaaaa\Payments\Payments\Util.Events\obj\Debug\netcoreapp2.2\Util.Events.csproj.CoreCompileInputs.cache
+D:\aaaaa\Payments\Payments\Util.Events\obj\Debug\netcoreapp2.2\Util.Events.AssemblyInfoInputs.cache
+D:\aaaaa\Payments\Payments\Util.Events\obj\Debug\netcoreapp2.2\Util.Events.AssemblyInfo.cs
+D:\aaaaa\Payments\Payments\Util.Events\obj\Debug\netcoreapp2.2\Util.Events.csproj.CopyComplete
+D:\aaaaa\Payments\Payments\Util.Events\obj\Debug\netcoreapp2.2\Util.Events.dll
+D:\aaaaa\Payments\Payments\Util.Events\obj\Debug\netcoreapp2.2\Util.Events.pdb

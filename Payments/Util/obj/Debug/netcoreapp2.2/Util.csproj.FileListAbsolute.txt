@@ -10,3 +10,14 @@ C:\Users\LTL\source\repos\Payments\Util\obj\Debug\netcoreapp2.2\Util.AssemblyInf
 C:\Users\LTL\source\repos\Payments\Util\obj\Debug\netcoreapp2.2\Util.dll
 C:\Users\LTL\source\repos\Payments\Util\obj\Debug\netcoreapp2.2\Util.pdb
 C:\Users\LTL\source\repos\Payments\Util\obj\Debug\netcoreapp2.2\Util.csprojAssemblyReference.cache
+D:\aaaaa\Payments\Payments\Util\bin\Debug\netcoreapp2.2\Util.deps.json
+D:\aaaaa\Payments\Payments\Util\bin\Debug\netcoreapp2.2\Util.dll
+D:\aaaaa\Payments\Payments\Util\bin\Debug\netcoreapp2.2\Util.pdb
+D:\aaaaa\Payments\Payments\Util\obj\Debug\netcoreapp2.2\Util.Properties.LibraryResource.resources
+D:\aaaaa\Payments\Payments\Util\obj\Debug\netcoreapp2.2\Util.Properties.R.resources
+D:\aaaaa\Payments\Payments\Util\obj\Debug\netcoreapp2.2\Util.csproj.GenerateResource.cache
+D:\aaaaa\Payments\Payments\Util\obj\Debug\netcoreapp2.2\Util.csproj.CoreCompileInputs.cache
+D:\aaaaa\Payments\Payments\Util\obj\Debug\netcoreapp2.2\Util.AssemblyInfoInputs.cache
+D:\aaaaa\Payments\Payments\Util\obj\Debug\netcoreapp2.2\Util.AssemblyInfo.cs
+D:\aaaaa\Payments\Payments\Util\obj\Debug\netcoreapp2.2\Util.dll
+D:\aaaaa\Payments\Payments\Util\obj\Debug\netcoreapp2.2\Util.pdb

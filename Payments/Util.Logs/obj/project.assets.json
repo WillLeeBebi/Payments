@@ -4543,11 +4543,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LTL\\source\\repos\\Payments\\Util.Logs\\Util.Logs.csproj",
+      "projectUniqueName": "D:\\aaaaa\\Payments\\Payments\\Util.Logs\\Util.Logs.csproj",
       "projectName": "Util.Logs",
-      "projectPath": "C:\\Users\\LTL\\source\\repos\\Payments\\Util.Logs\\Util.Logs.csproj",
+      "projectPath": "D:\\aaaaa\\Payments\\Payments\\Util.Logs\\Util.Logs.csproj",
       "packagesPath": "C:\\Users\\LTL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LTL\\source\\repos\\Payments\\Util.Logs\\obj\\",
+      "outputPath": "D:\\aaaaa\\Payments\\Payments\\Util.Logs\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
@@ -4567,11 +4567,11 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\LTL\\source\\repos\\Payments\\Util.Security\\Util.Security.csproj": {
-              "projectPath": "C:\\Users\\LTL\\source\\repos\\Payments\\Util.Security\\Util.Security.csproj"
+            "D:\\aaaaa\\Payments\\Payments\\Util.Security\\Util.Security.csproj": {
+              "projectPath": "D:\\aaaaa\\Payments\\Payments\\Util.Security\\Util.Security.csproj"
             },
-            "C:\\Users\\LTL\\source\\repos\\Payments\\Util\\Util.csproj": {
-              "projectPath": "C:\\Users\\LTL\\source\\repos\\Payments\\Util\\Util.csproj"
+            "D:\\aaaaa\\Payments\\Payments\\Util\\Util.csproj": {
+              "projectPath": "D:\\aaaaa\\Payments\\Payments\\Util\\Util.csproj"
             }
           }
         }

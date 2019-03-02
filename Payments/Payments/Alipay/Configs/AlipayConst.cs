@@ -1,8 +1,10 @@
-﻿namespace Payments.Alipay.Configs {
+﻿namespace Payments.Alipay.Configs
+{
     /// <summary>
     /// 支付宝常量
     /// </summary>
-    public static class AlipayConst {
+    public static class AlipayConst
+    {
         /// <summary>
         /// 支付宝跟踪日志名
         /// </summary>
@@ -11,6 +13,8 @@
         /// 编码
         /// </summary>
         public const string Charset = "charset";
+
+
         /// <summary>
         /// 应用标识
         /// </summary>
@@ -39,6 +43,11 @@
         /// 签名类型
         /// </summary>
         public const string SignType = "sign_type";
+
+        /// <summary>
+        /// nonce_str
+        /// </summary>
+        public const string NonceStr = "nonce_str";
         /// <summary>
         /// 回调通知Url
         /// </summary>

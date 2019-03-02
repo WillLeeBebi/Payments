@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Payments.Alipay.Configs;
 using Payments.Wechatpay.Configs;
 using Payments.Wechatpay.Signatures;
 using Util;
@@ -138,14 +139,14 @@ namespace Payments.Wechatpay.Results {
         /// 获取随机字符串
         /// </summary>
         public string GetNonce() {
-            return GetParam( "nonce_str" );
+            return GetParam(WechatpayConst.NonceStr);
         }
 
         /// <summary>
         /// 获取预支付标识
         /// </summary>
         public string GetPrepayId() {
-            return GetParam( "prepay_id" );
+            return GetParam(WechatpayConst.PrepayId);
         }
 
         /// <summary>
@@ -153,6 +154,14 @@ namespace Payments.Wechatpay.Results {
         /// </summary>
         public string GetTradeType() {
             return GetParam( WechatpayConst.TradeType );
+        }
+        /// <summary>
+        /// 获取订单号Id
+        /// </summary>
+        /// <returns></returns>
+        public string GetTransactionId()
+        {
+            return GetParam(WechatpayConst.TransactionId);
         }
 
         /// <summary>

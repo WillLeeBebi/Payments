@@ -59,5 +59,46 @@ namespace Payments.Wechatpay.Configs {
         public string GetOrderUrl() {
             return Url.Combine( GatewayUrl, "pay/unifiedorder" );
         }
+        /// <summary>
+        /// 查询订单地址
+        /// </summary>
+        /// <returns></returns>
+        public string GetOrderQueryUrl()
+        {
+            return Url.Combine(GatewayUrl, "pay/orderquery");
+        }
+        /// <summary>
+        /// 关闭订单地址
+        /// </summary>
+        /// <returns></returns>
+        public string GetOrderCloseUrl()
+        {
+            return Url.Combine(GatewayUrl, "pay/closeorder");
+        }
+        /// <summary>
+        /// 申请退款地址
+        /// </summary>
+        /// <returns></returns>
+        public string GetOrderRefundUrl()
+        {
+            return Url.Combine(GatewayUrl, "secapi/pay/refund");
+        }
+
+        /// <summary>
+        /// 查询退款地址
+        /// </summary>
+        /// <returns></returns>
+        public string GetRefundQueryUrl()
+        {
+            return Url.Combine(GatewayUrl, "pay/refundquery");
+        }
+        /// <summary>
+        /// 下载对账单地址
+        /// </summary>
+        /// <returns></returns>
+        public string GetDownloadBillUrl()
+        {
+            return Url.Combine(GatewayUrl, "pay/downloadbill");
+        }
     }
 }

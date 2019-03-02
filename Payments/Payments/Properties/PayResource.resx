@@ -129,4 +129,7 @@
   <data name="OrderIdIsEmpty" xml:space="preserve">
     <value>商户订单号不能为空</value>
   </data>
+  <data name="TIdOutTradeAllNull" xml:space="preserve">
+    <value>TransactionId,OutTradeNo不能同时为空</value>
+  </data>
 </root>

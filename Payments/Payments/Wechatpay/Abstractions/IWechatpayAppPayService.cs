@@ -9,6 +9,6 @@ namespace Payments.Wechatpay.Abstractions
     [PayService("微信App支付")]
     public interface IWechatpayAppPayService : IWechatpayPayService<WechatpayAppPayRequest>
     {
-
+  
     }
 }

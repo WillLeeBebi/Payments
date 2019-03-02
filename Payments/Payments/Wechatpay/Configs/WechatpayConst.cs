@@ -1,8 +1,10 @@
-﻿namespace Payments.Wechatpay.Configs {
+﻿namespace Payments.Wechatpay.Configs
+{
     /// <summary>
     /// 微信支付常量
     /// </summary>
-    public static class WechatpayConst {
+    public static class WechatpayConst
+    {
         /// <summary>
         /// 微信支付跟踪日志名
         /// </summary>
@@ -27,6 +29,14 @@
         /// 微信支付订单号
         /// </summary>
         public const string TransactionId = "transaction_id";
+        /// <summary>
+        /// 预支付Id
+        /// </summary>
+        public const string PrepayId = "prepay_id";
+        /// <summary>
+        /// nonce_str
+        /// </summary>
+        public const string NonceStr = "nonce_str";
         /// <summary>
         /// 货币类型
         /// </summary>
@@ -107,5 +117,15 @@
         /// 用户标识
         /// </summary>
         public const string OpenId = "openid";
+
+        /// <summary>
+        /// 二维码地址
+        /// </summary>
+        public const string CodeUrl = "code_url";
+
+        /// <summary>
+        /// 设备号 自定义参数，可以为请求支付的终端设备号等
+        /// </summary>
+        public const string DeviceInfo = "device_info";
     }
 }
