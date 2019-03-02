@@ -46,21 +46,21 @@ namespace Tests
             });
 
 
-            var wechatpayNativePayService = serviceDescriptors.BuildServiceProvider().GetService<IWechatpayNativePayService>();
-            var wechatpayNativePayRequest = new WechatpayNativePayRequest()
-            {
-                Subject = "订单标题",
-                OrderId = "11241243334d5677",
-                Money = 0.01m,
-                Attach = "附加参数",
+            //var wechatpayNativePayService = serviceDescriptors.BuildServiceProvider().GetService<IWechatpayNativePayService>();
+            //var wechatpayNativePayRequest = new WechatpayNativePayRequest()
+            //{
+            //    Subject = "订单标题",
+            //    OrderId = "AZF155142341223223",
+            //    Money = 0.01m,
+            //    Attach = "附加参数",
 
-            };
-            var result1 = wechatpayNativePayService.PayAsync(wechatpayNativePayRequest).GetAwaiter().GetResult();
+            //};
+            //var result1 = wechatpayNativePayService.PayAsync(wechatpayNativePayRequest).GetAwaiter().GetResult();
 
             var wechatOrderQueryService = serviceDescriptors.BuildServiceProvider().GetService<IWechatOrderQueryService>();
             var result2 = wechatOrderQueryService.QueryAsync(new Payments.Core.OrderQueryParam()
             {
-                OrderId = "11241243334d5677"
+                OrderId = "AZF1551498881QHHFI6"
             }).GetAwaiter().GetResult();
 
 

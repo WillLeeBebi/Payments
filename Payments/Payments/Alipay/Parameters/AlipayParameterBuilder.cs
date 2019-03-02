@@ -41,8 +41,7 @@ namespace Payments.Alipay.Parameters {
         /// <summary>
         /// 初始化
         /// </summary>
-        public void Init( PayParam param ) {
-            param.Init();
+        public void Init( PayParam param ) {     
             Content.Init( param );
             Format( "json" ).Charset( Config.Charset ).SignType( "RSA2" ).Timestamp().Version( "1.0" ).AppId( Config.AppId )
                 .ReturnUrl( param.ReturnUrl ).NotifyUrl( param.NotifyUrl );

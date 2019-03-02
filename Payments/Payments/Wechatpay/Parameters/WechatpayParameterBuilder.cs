@@ -38,13 +38,10 @@ namespace Payments.Wechatpay.Parameters
         /// <summary>
         /// 初始化
         /// </summary>
-        public void Init(PayParam param)
-        {
-            param.CheckNull(nameof(param));
-            param.Init();
+        public virtual void Init()
+        {                   
             AppId(Config.AppId).MerchantId(Config.MerchantId).SignType(Config.SignType.Description())
-                .Add("nonce_str", Id.Guid()).SpbillCreateIp(Web.Ip).Body(param.Subject).OutTradeNo(param.OrderId)
-                .TotalFee(param.Money).NotifyUrl(param.NotifyUrl).Attach(param.Attach).OpenId(param.OpenId);
+                .NonceStr(Id.Guid()).SpbillCreateIp(Web.Ip);
         }
 
         /// <summary>
@@ -75,6 +72,17 @@ namespace Payments.Wechatpay.Parameters
         public WechatpayParameterBuilder MerchantId(string merchantId)
         {
             _builder.Add(WechatpayConst.MerchantId, merchantId);
+            return this;
+        }
+
+        /// <summary>
+        /// 添加随机数
+        /// </summary>
+        /// <param name="nonceStr"></param>
+        /// <returns></returns>
+        public WechatpayParameterBuilder NonceStr(string nonceStr)
+        {
+            _builder.Add(WechatpayConst.NonceStr, nonceStr);
             return this;
         }
 

@@ -29,7 +29,7 @@ namespace Payments.Wechatpay.Services {
             return await PayAsync( request.ToParam() );
         }
 
-   
+      
 
         /// <summary>
         /// 获取交易类型
