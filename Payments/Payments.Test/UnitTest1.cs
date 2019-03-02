@@ -45,28 +45,66 @@ namespace Tests
 
             });
 
+            //string orderId = "12313412424412441";
+            string orderId = "1231341242441242241";
+            var wechatpayNativePayService = serviceDescriptors.BuildServiceProvider().GetService<IWechatpayNativePayService>();
+            var wechatpayNativePayRequest = new WechatpayNativePayRequest()
+            {
+                Subject = "订单标题",
+                OrderId = orderId,
+                Money = 0.01m,
+                Attach = "附加参数",
 
-            //var wechatpayNativePayService = serviceDescriptors.BuildServiceProvider().GetService<IWechatpayNativePayService>();
-            //var wechatpayNativePayRequest = new WechatpayNativePayRequest()
+            };
+            var result1 = wechatpayNativePayService.PayAsync(wechatpayNativePayRequest).GetAwaiter().GetResult();
+
+            //var wechatOrderQueryService = serviceDescriptors.BuildServiceProvider().GetService<IWechatOrderQueryService>();
+            //var result2 = wechatOrderQueryService.QueryAsync(new  WechatOrderQueryRequest()
             //{
-            //    Subject = "订单标题",
-            //    OrderId = "AZF155142341223223",
+            //    OrderId = orderId
+            //}).GetAwaiter().GetResult();
+
+            //var wechatCloseOrderService = serviceDescriptors.BuildServiceProvider().GetService<IWechatCloseOrderService>();
+            //var result3 = wechatCloseOrderService.CloseAsync(new  WechatCloseOrderRequest()
+            //{
+            //    OrderId = orderId
+            //}).GetAwaiter().GetResult();
+
+
+            //var result4 = wechatOrderQueryService.QueryAsync(new  WechatOrderQueryRequest()
+            //{
+            //    OrderId = orderId
+            //}).GetAwaiter().GetResult();
+
+ 
+
+            //var wechatRefundOrderService = serviceDescriptors.BuildServiceProvider().GetService<IWechatRefundOrderService>();
+            //var wechatRefundOrderRequest = new WechatRefundOrderRequest()
+            //{
+            //    OutRefundNo = "123456789",
+            //    OrderId = orderId,
             //    Money = 0.01m,
-            //    Attach = "附加参数",
+            //    RefundMoney=0.01m,
+
+            //    //NotifyUrl= "https://weixin.qq.com/notify/"
 
             //};
-            //var result1 = wechatpayNativePayService.PayAsync(wechatpayNativePayRequest).GetAwaiter().GetResult();
+            //var result22 = wechatRefundOrderService.RefundAsync(wechatRefundOrderRequest).GetAwaiter().GetResult();
 
-            var wechatOrderQueryService = serviceDescriptors.BuildServiceProvider().GetService<IWechatOrderQueryService>();
-            var result2 = wechatOrderQueryService.QueryAsync(new Payments.Core.OrderQueryParam()
+
+            var wechatRefundQueryService = serviceDescriptors.BuildServiceProvider().GetService<IWechatRefundQueryService>();
+            var wechatRefundQueryRequest = new WechatRefundQueryRequest()
             {
-                OrderId = "AZF1551498881QHHFI6"
-            }).GetAwaiter().GetResult();
+                //OutRefundNo = "123456789",
+                OrderId = orderId,
+          
 
+                //NotifyUrl= "https://weixin.qq.com/notify/"
 
-
-
+            };
+            var result2231 = wechatRefundQueryService.RefundQuery(wechatRefundQueryRequest).GetAwaiter().GetResult();
 
         }
+
     }
 }

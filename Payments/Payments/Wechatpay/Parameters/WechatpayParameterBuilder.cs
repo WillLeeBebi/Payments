@@ -39,7 +39,7 @@ namespace Payments.Wechatpay.Parameters
         /// 初始化
         /// </summary>
         public virtual void Init()
-        {                   
+        {
             AppId(Config.AppId).MerchantId(Config.MerchantId).SignType(Config.SignType.Description())
                 .NonceStr(Id.Guid()).SpbillCreateIp(Web.Ip);
         }
@@ -52,6 +52,16 @@ namespace Payments.Wechatpay.Parameters
         public WechatpayParameterBuilder Add(string name, string value)
         {
             _builder.Add(name, value);
+            return this;
+        }
+        /// <summary>
+        /// 移除参数
+        /// </summary>
+        /// <param name="name">参数名</param>
+        /// <returns></returns>
+        public WechatpayParameterBuilder Remove(string name)
+        {
+            _builder.Remove(name);
             return this;
         }
 
@@ -123,6 +133,12 @@ namespace Payments.Wechatpay.Parameters
         public WechatpayParameterBuilder TotalFee(decimal totalFee)
         {
             _builder.Add(WechatpayConst.TotalFee, Convert.ToInt(totalFee * 100));
+            return this;
+        }
+
+        public WechatpayParameterBuilder RefundTotalFee(decimal totalFee)
+        {
+            _builder.Add(WechatpayConst.RefundFee, Convert.ToInt(totalFee * 100));
             return this;
         }
 

@@ -30,13 +30,9 @@ namespace Payments.Wechatpay.Services.Base
         /// 支付
         /// </summary>
         /// <param name="param">支付参数</param>
-        public virtual async Task<PayResult> PayAsync(PayParam param)
+        public Task<PayResult> PayAsync(PayParam param)
         {
-            var config = await ConfigProvider.GetConfigAsync();
-            Validate(config, param);
-            var builder = new WechatpayParameterBuilder(config);
-            Config(builder, param);    
-            return await RequstResult(config, builder);
+            return Request(param);
         }
 
         /// <summary>
@@ -51,7 +47,7 @@ namespace Payments.Wechatpay.Services.Base
 
         }
 
- 
+
         /// <summary>
         /// 获取功能Url
         /// </summary>

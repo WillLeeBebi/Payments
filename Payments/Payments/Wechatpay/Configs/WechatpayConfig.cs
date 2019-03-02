@@ -100,5 +100,17 @@ namespace Payments.Wechatpay.Configs {
         {
             return Url.Combine(GatewayUrl, "pay/downloadbill");
         }
+
+        /// <summary>
+        /// 下载资金账单
+        /// </summary>
+        /// <returns></returns>
+        public string GetDownloadFundFlowUrl()
+        {
+            return Url.Combine(GatewayUrl, "pay/downloadfundflow");
+        }
+
+      
+
     }
 }

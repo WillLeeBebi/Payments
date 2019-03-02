@@ -60,6 +60,18 @@ namespace Util.Parameters
                 _params.Add(key, value);
             return this;
         }
+        public ParameterBuilder Remove(string key)
+        {
+            if (string.IsNullOrWhiteSpace(key))
+                return this;              
+            key = key.Trim();
+            if (_params.ContainsKey(key))
+            {
+                _params.Remove(key);
+            }
+             
+            return this;
+        }
 
         /// <summary>
         /// 获取值
@@ -119,14 +131,7 @@ namespace Util.Parameters
             _params.Clear();
         }
 
-        /// <summary>
-        /// 移除参数
-        /// </summary>
-        /// <param name="key">键</param>
-        public bool Remove(string key)
-        {
-            return _params.Remove(key);
-        }
+       
 
         /// <summary>
         /// 转换为Json

@@ -45,6 +45,26 @@
         /// 总金额
         /// </summary>
         public const string TotalFee = "total_fee";
+
+        /// <summary>
+        /// 微信退款单号
+        /// </summary>
+        public const string RefundId = "refund_id";
+        /// <summary>
+        /// 退款金额
+        /// </summary>
+        public const string RefundFee = "refund_fee";
+
+        /// <summary>
+        /// 退款金额
+        /// </summary>
+        public const string SettlementRefundFee = "settlement_refund_fee";
+
+        /// <summary>
+        /// 退款金额
+        /// </summary>
+        public const string SettlementTotalFee = "settlement_refund_fee";
+
         /// <summary>
         /// 回调通知Url
         /// </summary>
@@ -127,5 +147,27 @@
         /// 设备号 自定义参数，可以为请求支付的终端设备号等
         /// </summary>
         public const string DeviceInfo = "device_info";
+
+        /// <summary>
+        /// 商户退款单号
+        /// </summary>
+        public const string OutRefundNo = "out_refund_no";
+
+        /// <summary>
+        /// 退款原因
+        /// </summary>
+        public const string RefundDesc = "refund_desc";
+
+        /// <summary>
+        /// 成功时间
+        /// </summary>
+        public const string SuccessTime = "success_time";
+
+        /// <summary>
+        /// 请求信息
+        /// </summary>
+        public const string ReqInfo = "req_info";
+
+
     }
 }
